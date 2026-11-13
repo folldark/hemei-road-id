@@ -113,7 +113,7 @@ function renderCard(state, road, segIndex) {
   box.append(head);
 
   // 一、公路法
-  const s1 = el('section', { class: 'block b-highway' }, el('h2', { text: '一、《公路法》上的身分' }));
+  const s1 = el('section', { class: 'block b-highway' }, el('h2', {}, el('span', { class: 'num', text: '01' }), '《公路法》上的身分'));
   const cands = seg.highwayCandidates;
   if (!h && cands && cands.length) {
     s1.append(el('p', { class: 'verdict', text: '要看你調查的是哪一小段。' }),
@@ -150,7 +150,7 @@ function renderCard(state, road, segIndex) {
   box.append(s1);
 
   // 二、都市計畫
-  const s2 = el('section', { class: 'block b-plan' }, el('h2', { text: '二、都市計畫裡的身分' }));
+  const s2 = el('section', { class: 'block b-plan' }, el('h2', {}, el('span', { class: 'num', text: '02' }), '都市計畫裡的身分'));
   if (!u || !u.inPlan) {
     s2.append(el('p', { class: 'verdict', text: '這一段不在和美主要計畫的道路編號表內（或資料尚未建立）。' }),
       el('p', { class: 'note', text: '可能是在都市計畫範圍外，也可能是細部計畫道路或巷弄。可以到彰化縣都市計畫圖台確認。' }));
@@ -170,7 +170,7 @@ function renderCard(state, road, segIndex) {
   box.append(s2);
 
   // 三、市區道路體系
-  const s3 = el('section', { class: 'block b-urban' }, el('h2', { text: '三、《市區道路條例》體系對它的要求' }));
+  const s3 = el('section', { class: 'block b-urban' }, el('h2', {}, el('span', { class: 'num', text: '03' }), '《市區道路條例》體系的要求'));
   if (!match.urban.length) {
     s3.append(el('p', { class: 'empty', text: '這一段不在都市計畫道路表內，無法依計畫寬度與定位判斷適用哪些市區道路規定。' }));
   } else {
@@ -189,7 +189,7 @@ function renderCard(state, road, segIndex) {
   box.append(s3);
 
   // 換你去現場查
-  const s4 = el('section', { class: 'block b-field' }, el('h2', { text: '換你去現場查' }),
+  const s4 = el('section', { class: 'block b-field' }, el('h2', {}, el('span', { class: 'num', text: '04' }), '換你去現場查'),
     el('p', { class: 'note', text: '上面是這條路「依規定應該是」的樣子。它「實際上」是什麼樣子，工具不知道，要你們去量、去拍。' }),
     el('ul', { class: 'checklist' },
       el('li', { text: `實際量到的路寬：＿＿公尺（計畫寬度 ${u && u.width_m != null ? u.width_m + ' 公尺' : '＿＿'}，差＿＿公尺）` }),
@@ -214,6 +214,7 @@ function renderCard(state, road, segIndex) {
     el('button', { type: 'button', class: 'ghost', onclick: () => window.print() }, '列印'),
     status));
   box.append(s4);
+  box.append(el('p', { class: 'more' }, el('a', { href: 'why.html', text: '為什麼一條路會有這麼多身分、這麼多機關在管？ →' })));
 }
 
 function renderList(state, query) {
