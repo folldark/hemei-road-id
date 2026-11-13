@@ -171,8 +171,15 @@ function renderCard(state, road, segIndex) {
 
   // 三、市區道路體系
   const s3 = el('section', { class: 'block b-urban' }, el('h2', {}, el('span', { class: 'num', text: '03' }), '《市區道路條例》體系的要求'));
-  if (!match.urban.length) {
-    s3.append(el('p', { class: 'empty', text: '這一段不在都市計畫道路表內，無法依計畫寬度與定位判斷適用哪些市區道路規定。' }));
+  if (!(u && u.inPlan)) {
+    s3.append(el('p', { class: 'note warn', text: '這一區的條文比較少，是因為這一段不在和美主要計畫的道路編號表內。《市區道路條例》第2條說的市區道路，在鄉鎮主要是指「都市計畫區域內」的道路；和美是鎮，都市計畫區外的公路原則上只照上面《公路法》體系的規定設計與養護。所以《市區道路及附屬工程設計標準》和設計規範（人行道淨寬等）沒有列在這裡。' }));
+    s3.append(el('p', { class: 'note', text: '但工具不確定這一段是否真的在都市計畫區外：它也可能位在交流道特定區等其他計畫裡，那樣就仍然是市區道路。要確認，請查彰化縣都市計畫圖資，或問縣政府。' }));
+    if (match.urban.length) {
+      s3.append(el('p', { class: 'note', text: '下面只列出不論在不在都市計畫區內都用得上的條文。' }));
+      s3.append(...ruleGroups(match.urban, match, []));
+    }
+  } else if (!match.urban.length) {
+    s3.append(el('p', { class: 'empty', text: '沒有找到適用的市區道路規定。' }));
   } else {
     const dr = designRoles(seg);
     const why = dr.basis === 'highway'
