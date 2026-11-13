@@ -166,6 +166,31 @@ th { font-size: .78rem; letter-spacing: .1em; border-bottom: 2px solid var(--lin
 .opt p { grid-column: 2; font-size: .95rem; }
 .opt .cost { color: var(--muted); }
 
+/* 三部母法的圈圈圖 */
+.venn { margin: 16px 0 8px; }
+.venn svg { display: block; width: 100%; max-width: 480px; height: auto; }
+.venn circle { fill-opacity: .13; stroke-width: 3; }
+.v-plan { fill: var(--green); stroke: var(--green); }
+.v-hw { fill: var(--red); stroke: var(--red); }
+.v-urb { fill: var(--blue); stroke: var(--blue); }
+.v-name { font-size: 19px; font-weight: 900; letter-spacing: -0.03em; fill: var(--ink); }
+.v-sub { font-size: 13.5px; fill: var(--ink); }
+.venn .v-mark circle { fill: var(--ink); fill-opacity: 1; stroke: none; }
+.v-mark text { font-size: 16px; font-weight: 900; fill: var(--paper); }
+.venn .v-core circle { fill: var(--yellow); }
+.v-core text { fill: var(--asphalt); }
+.laws { display: grid; gap: 0; margin: 14px 0 6px; }
+.law { border-top: 4px solid var(--c); padding: 10px 0 14px; }
+.law h3 { margin: 0 0 2px; color: var(--c); font-size: 1.15rem; }
+.law-sub { font-size: .82rem; color: var(--muted); }
+.law ul { margin: 8px 0 0; font-size: .95rem; }
+.l-plan { --c: var(--green); } .l-hw { --c: var(--red); } .l-urb { --c: var(--blue); }
+@media (min-width: 700px) { .laws { grid-template-columns: repeat(3, 1fr); gap: 0 24px; } }
+.zones { counter-reset: z; list-style: none; padding-left: 0 !important; }
+.zones li { counter-increment: z; position: relative; padding-left: 2.4em; }
+.zones li::before { content: counter(z); position: absolute; left: 0; top: .2em; width: 1.7em; height: 1.7em; border-radius: 50%; background: var(--ink); color: var(--paper); font-weight: 900; font-size: .85rem; display: grid; place-items: center; }
+.zones li:last-child::before { background: var(--yellow); color: var(--asphalt); }
+
 .site-foot { color: var(--muted); font-size: .82rem; padding-top: 20px; padding-bottom: 44px; border-top: 2px solid var(--line); margin-top: 30px; }
 .site-foot p { margin-bottom: 6px; max-width: 60em; }
 .sources { padding-left: 1.2em; margin-bottom: 8px; }
