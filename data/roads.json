@@ -1,0 +1,3811 @@
+{
+ "updated": "2026-11-13",
+ "plan": {
+  "name": "和美都市計畫（現行主要計畫名稱：和美主要計畫）",
+  "version": "第四次通盤檢討（主要計畫109年5月1日發布實施）；道路編號表為其後「都市計畫圖重製專案通盤檢討」（112年3月2日發布實施）後之現行內容",
+  "date": "表格所在計畫書：民國114年3月（2025-03）；表格資料來源註記：變更和美主要計畫(都市計畫圖重製專案通盤檢討)書，和美鎮公所，111年11月",
+  "firstPublished": "民國59年11月10日（1970-11-10）公布實施",
+  "sourceUrl": "https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+  "sourceTitle": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月）",
+  "sourcePages": "表2-4：頁2-12～2-13（PDF第28～29頁）；交通系統計畫：頁2-6～2-8（PDF第22～24頁）；圖2-2道路系統示意圖：頁2-15（PDF第31頁）",
+  "localCopy": "data/research/sources/hemei-main-plan-4th-review-cases3-4-2025-03.pdf",
+  "planAreaHa": 359.22,
+  "roleDefinitions": {
+   "總說": "本計畫區交通系統依道路功能區分為聯外、主要、次要及出入道路等3種，茲分述如下：（原文如此；次要及出入道路合為一類）",
+   "聯外道路": "計畫書未另下定義，以列舉方式說明，共4條：1.綠園道1(彰美路、道周路)：屬縣道134線，亦是和美都市計畫區主要聯外幹道，東至計畫區東側，可通往彰化市，北接至計畫區北側，計畫寬度為25公尺，長度約為3,084公尺。2.綠園道2(鹿和路)：為縣道135線，向北接至綠園道1(道周路)，可通往和美鎮舊市區，向南接至綠園道3(鹿和路)，計畫寬度為25公尺，長度約為201公尺。3.綠園道3(鹿和路)：為縣道135線，向北與綠園道2(鹿和路)相接，向南接至計畫區南側，可通往鹿港鎮，計畫寬度為20公尺，長度約為670公尺。4.11號道路(和線路)：和線路為縣道138線，向東與道周路相接，可通往和美鎮舊市區，向西往線西鄉，計畫寬度為16公尺，長度約為397公尺。",
+   "主要道路": "計畫書未另下定義，以列舉方式說明，共11條：6號道路(彰美路)、7號道路(彰美路)、9號道路(美寮路)、12號道路(彰和路三段)、19號道路(仁安路)、20號道路(永樂路、和卿路、仁美路)、22號道路(和線路、中正路)、33號道路(和平街)、36號道路(仁美路)、62號道路(和厝路一段)、67號道路(美寮路)。",
+   "次要及出入道路": "於上述聯外道路及主要道路之外，另劃設次要及出入道路，供各鄰里單元使用。",
+   "次要道路": "計畫書內文未單獨定義，也未逐條列出；與出入道路合稱「次要及出入道路」。圖2-2示意圖圖例有「次要道路」（綠色虛線），但圖上沒有標編號，本資料未據以逐條判定。",
+   "出入道路": "計畫書內文未單獨定義，也未逐條列出；與次要道路合稱「次要及出入道路」。"
+  },
+  "knownIssues": [
+   "表2-4為『主要計畫』道路編號表，不含細部計畫道路（例如起迄點出現的115號、116號道路不在表內），也不含未編號的人行步道。",
+   "綠園道2、綠園道3：表備註寫道周路，內文寫鹿和路（縣道135線），本資料採鹿和路並標likely。",
+   "19-10M長度：表印7340，內文寫734，本資料採734。",
+   "綠園道3編號寫25M但計畫寬度為20公尺。"
+  ]
+ },
+ "sources": [
+  {
+   "title": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月）",
+   "url": "https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf"
+  },
+  {
+   "title": "交通部公路局 圖說公路（公路路線公告）",
+   "url": "https://www.thb.gov.tw/"
+  }
+ ],
+ "roads": [
+  {
+   "id": "daozhou-rd",
+   "name": "道周路",
+   "aliases": [
+    "綠園道1-25M",
+    "縣道138",
+    "138",
+    "彰201"
+   ],
+   "segments": [
+    {
+     "label": "北段：彰美路六段口—和線路口",
+     "highway": {
+      "class": "鄉道",
+      "number": "彰201",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名；交通部106年11月3日交路字第1060414172號公告附圖22（原縣道139甲線0K+000～3K+429改編）",
+      "confidence": "verified"
+     },
+     "highwayWhere": "北段（彰美路六段口—和線路口，約0.35公里）",
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "綠園道1-25M",
+      "width_m": 25,
+      "length_m": 3084,
+      "role": "聯外道路",
+      "fromTo": "自東側計畫界至北側計畫界",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "此編號在計畫書備註欄同時列「道周路、彰美路」，長度3084公尺是整個編號的總長，計畫書沒有分列各路名的長度。屬縣道134線，是和美都市計畫區主要聯外幹道，東通彰化市。民國109年第四次通盤檢討時由道路用地改為「綠園道用地」（每100公尺至少種10株大型喬木）。\n注意：計畫書內文寫的公路編號（綠園道1為縣道134、鹿和路為縣道135）是舊的說法；依交通部113年1月公告的現行路線，縣道134已改走德美路，這裡的公路身分以現行公告為準。"
+    },
+    {
+     "label": "中段：和線路口—西園路口—彰和路三段口（和美高中前）",
+     "highway": {
+      "class": "縣道",
+      "number": "縣道138",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "highwayWhere": "中段（和線路口—西園路口—彰和路三段／大佃路／仁安路口，約1.55公里）",
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "綠園道1-25M",
+      "width_m": 25,
+      "length_m": 3084,
+      "role": "聯外道路",
+      "fromTo": "自東側計畫界至北側計畫界",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "此編號在計畫書備註欄同時列「道周路、彰美路」，長度3084公尺是整個編號的總長，計畫書沒有分列各路名的長度。屬縣道134線，是和美都市計畫區主要聯外幹道，東通彰化市。民國109年第四次通盤檢討時由道路用地改為「綠園道用地」（每100公尺至少種10株大型喬木）。\n注意：計畫書內文寫的公路編號（綠園道1為縣道134、鹿和路為縣道135）是舊的說法；依交通部113年1月公告的現行路線，縣道134已改走德美路，這裡的公路身分以現行公告為準。"
+    },
+    {
+     "label": "東南端：彰和路三段口—彰美路五段口",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "未列入交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名，沿線15公尺內無任何國道、省道、縣道、鄉道路線",
+      "confidence": "likely"
+     },
+     "highwayWhere": "東南端（彰和路三段／大佃路口—彰美路五段口，約0.19公里）",
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "綠園道1-25M",
+      "width_m": 25,
+      "length_m": 3084,
+      "role": "聯外道路",
+      "fromTo": "自東側計畫界至北側計畫界",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "此編號在計畫書備註欄同時列「道周路、彰美路」，長度3084公尺是整個編號的總長，計畫書沒有分列各路名的長度。屬縣道134線，是和美都市計畫區主要聯外幹道，東通彰化市。民國109年第四次通盤檢討時由道路用地改為「綠園道用地」（每100公尺至少種10株大型喬木）。\n注意：計畫書內文寫的公路編號（綠園道1為縣道134、鹿和路為縣道135）是舊的說法；依交通部113年1月公告的現行路線，縣道134已改走德美路，這裡的公路身分以現行公告為準。"
+    }
+   ]
+  },
+  {
+   "id": "zhangmei-rd",
+   "name": "彰美路",
+   "aliases": [
+    "綠園道1-25M",
+    "6-16M",
+    "7-14M",
+    "縣道134",
+    "134",
+    "彰201",
+    "彰美路一段",
+    "彰美路二段",
+    "彰美路三段",
+    "彰美路四段",
+    "彰美路五段",
+    "彰美路六段"
+   ],
+   "segments": [
+    {
+     "label": "綠園道1-25M 的範圍（與道周路共用編號）",
+     "highway": null,
+     "highwayCandidates": [
+      {
+       "label": "六段北端（和港路／西美路口—德美路口，約0.13公里）",
+       "class": "縣道",
+       "number": "縣道134",
+       "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+       "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+       "confidence": "verified"
+      },
+      {
+       "label": "六段（德美路口—道周路口，約0.2公里）",
+       "class": "none",
+       "number": null,
+       "authority": null,
+       "source": "未列入交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名，沿線15公尺內無任何國道、省道、縣道、鄉道路線",
+       "confidence": "likely"
+      },
+      {
+       "label": "六段（道周路口—和厝路一段口，約0.12公里）",
+       "class": "鄉道",
+       "number": "彰201",
+       "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+       "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+       "confidence": "verified"
+      },
+      {
+       "label": "六段（和厝路一段口—中山路／和頭路／美寮路口，約0.57公里）",
+       "class": "none",
+       "number": null,
+       "authority": null,
+       "source": "未列入交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名，沿線15公尺內無任何國道、省道、縣道、鄉道路線",
+       "confidence": "verified"
+      },
+      {
+       "label": "五段市區段（中山路／和頭路／美寮路口—德美路／愛德路口，約0.43公里）",
+       "class": "none",
+       "number": null,
+       "authority": null,
+       "source": "未列入交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名，沿線15公尺內無任何國道、省道、縣道、鄉道路線",
+       "confidence": "verified"
+      },
+      {
+       "label": "五段東南段、四段、三段、二段（德美路／愛德路口—彰化市界，約4公里）",
+       "class": "縣道",
+       "number": "縣道134",
+       "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+       "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+       "confidence": "verified"
+      }
+     ],
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "綠園道1-25M",
+      "width_m": 25,
+      "length_m": 3084,
+      "role": "聯外道路",
+      "fromTo": "自東側計畫界至北側計畫界",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "此編號在計畫書備註欄同時列「道周路、彰美路」，長度3084公尺是整個編號的總長，計畫書沒有分列各路名的長度。屬縣道134線，是和美都市計畫區主要聯外幹道，東通彰化市。民國109年第四次通盤檢討時由道路用地改為「綠園道用地」（每100公尺至少種10株大型喬木）。\n注意：計畫書內文寫的公路編號（綠園道1為縣道134、鹿和路為縣道135）是舊的說法；依交通部113年1月公告的現行路線，縣道134已改走德美路，這裡的公路身分以現行公告為準。"
+    },
+    {
+     "label": "6-16M 的範圍",
+     "highway": null,
+     "highwayCandidates": [
+      {
+       "label": "六段北端（和港路／西美路口—德美路口，約0.13公里）",
+       "class": "縣道",
+       "number": "縣道134",
+       "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+       "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+       "confidence": "verified"
+      },
+      {
+       "label": "六段（德美路口—道周路口，約0.2公里）",
+       "class": "none",
+       "number": null,
+       "authority": null,
+       "source": "未列入交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名，沿線15公尺內無任何國道、省道、縣道、鄉道路線",
+       "confidence": "likely"
+      },
+      {
+       "label": "六段（道周路口—和厝路一段口，約0.12公里）",
+       "class": "鄉道",
+       "number": "彰201",
+       "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+       "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+       "confidence": "verified"
+      },
+      {
+       "label": "六段（和厝路一段口—中山路／和頭路／美寮路口，約0.57公里）",
+       "class": "none",
+       "number": null,
+       "authority": null,
+       "source": "未列入交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名，沿線15公尺內無任何國道、省道、縣道、鄉道路線",
+       "confidence": "verified"
+      },
+      {
+       "label": "五段市區段（中山路／和頭路／美寮路口—德美路／愛德路口，約0.43公里）",
+       "class": "none",
+       "number": null,
+       "authority": null,
+       "source": "未列入交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名，沿線15公尺內無任何國道、省道、縣道、鄉道路線",
+       "confidence": "verified"
+      },
+      {
+       "label": "五段東南段、四段、三段、二段（德美路／愛德路口—彰化市界，約4公里）",
+       "class": "縣道",
+       "number": "縣道134",
+       "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+       "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+       "confidence": "verified"
+      }
+     ],
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "6-16M",
+      "width_m": 16,
+      "length_m": 526,
+      "role": "主要道路",
+      "fromTo": "自綠園道1至7號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：綠園道1＝道周路、彰美路；7號道路＝彰美路。"
+    },
+    {
+     "label": "7-14M 的範圍",
+     "highway": null,
+     "highwayCandidates": [
+      {
+       "label": "六段北端（和港路／西美路口—德美路口，約0.13公里）",
+       "class": "縣道",
+       "number": "縣道134",
+       "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+       "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+       "confidence": "verified"
+      },
+      {
+       "label": "六段（德美路口—道周路口，約0.2公里）",
+       "class": "none",
+       "number": null,
+       "authority": null,
+       "source": "未列入交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名，沿線15公尺內無任何國道、省道、縣道、鄉道路線",
+       "confidence": "likely"
+      },
+      {
+       "label": "六段（道周路口—和厝路一段口，約0.12公里）",
+       "class": "鄉道",
+       "number": "彰201",
+       "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+       "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+       "confidence": "verified"
+      },
+      {
+       "label": "六段（和厝路一段口—中山路／和頭路／美寮路口，約0.57公里）",
+       "class": "none",
+       "number": null,
+       "authority": null,
+       "source": "未列入交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名，沿線15公尺內無任何國道、省道、縣道、鄉道路線",
+       "confidence": "verified"
+      },
+      {
+       "label": "五段市區段（中山路／和頭路／美寮路口—德美路／愛德路口，約0.43公里）",
+       "class": "none",
+       "number": null,
+       "authority": null,
+       "source": "未列入交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名，沿線15公尺內無任何國道、省道、縣道、鄉道路線",
+       "confidence": "verified"
+      },
+      {
+       "label": "五段東南段、四段、三段、二段（德美路／愛德路口—彰化市界，約4公里）",
+       "class": "縣道",
+       "number": "縣道134",
+       "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+       "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+       "confidence": "verified"
+      }
+     ],
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "7-14M",
+      "width_m": 14,
+      "length_m": 1134,
+      "role": "主要道路",
+      "fromTo": "自6號道路至綠園道1",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：6號道路＝彰美路；綠園道1＝道周路、彰美路。"
+    }
+   ]
+  },
+  {
+   "id": "luhe-rd",
+   "name": "鹿和路",
+   "aliases": [
+    "綠園道2-25M",
+    "綠園道3-25M",
+    "縣道138甲",
+    "138甲",
+    "鹿和路五段",
+    "鹿和路六段"
+   ],
+   "segments": [
+    {
+     "label": "六段市區段：中正路口—道周路口",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部106年11月3日交路字第1060414172號公告（原縣道135線0K+000～0K+617和美市區段解編）；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "highwayWhere": "六段市區段（中正路口—道周路口，約0.44公里）",
+     "urbanPlan": null,
+     "notes": "這一段在計畫書道路編號表裡找不到對應「鹿和路」的編號，可能列在其他編號之下，尚待查證。"
+    },
+    {
+     "label": "道周路口以南（綠園道2）",
+     "highway": {
+      "class": "縣道",
+      "number": "縣道138甲",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名；交通部106年11月3日交路字第1060414172號公告（原縣道135線0K+617～8K+718改編為縣道138甲線）",
+      "confidence": "verified"
+     },
+     "highwayWhere": "六段（道周路口以南）、五段（至鹿港鎮界，約1.7公里）",
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "綠園道2-25M",
+      "width_m": 25,
+      "length_m": 201,
+      "role": "聯外道路",
+      "fromTo": "自綠園道1至綠園道3",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "likely"
+     },
+     "notes": "起迄點對照：綠園道1＝道周路、彰美路；綠園道3＝鹿和路。【原文不一致】表2-4備註欄寫「道周路」，但同書頁2-6內文寫「綠園道2(鹿和路)」「為縣道135線」。本資料依內文與示意圖採「鹿和路」，上課前建議對照現場。\n注意：計畫書內文寫的公路編號（綠園道1為縣道134、鹿和路為縣道135）是舊的說法；依交通部113年1月公告的現行路線，縣道134已改走德美路，這裡的公路身分以現行公告為準。"
+    },
+    {
+     "label": "再往南到計畫區南側（綠園道3）",
+     "highway": {
+      "class": "縣道",
+      "number": "縣道138甲",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名；交通部106年11月3日交路字第1060414172號公告（原縣道135線0K+617～8K+718改編為縣道138甲線）",
+      "confidence": "verified"
+     },
+     "highwayWhere": "六段（道周路口以南）、五段（至鹿港鎮界，約1.7公里）",
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "綠園道3-25M",
+      "width_m": 20,
+      "length_m": 670,
+      "role": "聯外道路",
+      "fromTo": "自綠園道2至計畫區南側",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "likely"
+     },
+     "notes": "起迄點對照：綠園道2＝鹿和路。【原文不一致】表2-4備註欄寫「道周路」，但同書頁2-6內文寫「綠園道3(鹿和路)」「為縣道135線…可通往鹿港鎮」。另外編號雖寫25M，表列與內文的計畫寬度都是20公尺。\n注意：計畫書內文寫的公路編號（綠園道1為縣道134、鹿和路為縣道135）是舊的說法；依交通部113年1月公告的現行路線，縣道134已改走德美路，這裡的公路身分以現行公告為準。"
+    }
+   ]
+  },
+  {
+   "id": "helin-rd",
+   "name": "和林路",
+   "aliases": [
+    "綠園道4"
+   ],
+   "segments": [
+    {
+     "label": "綠園道4（自26號道路至55號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "綠園道4",
+      "width_m": null,
+      "length_m": 120,
+      "role": "計畫書未載明（綠園道用地）",
+      "fromTo": "自26號道路至55號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：26號道路＝平林路；55號道路＝西園路。表2-4寬度欄為「－」（未列寬度）。原為26-10M計畫道路與綠地（綠2），第四次通盤檢討變更為綠園道用地。"
+    }
+   ]
+  },
+  {
+   "id": "plan-lvyuandao5-15m",
+   "name": "計畫道路 綠園道5-15M",
+   "aliases": [
+    "綠園道5-15M"
+   ],
+   "segments": [
+    {
+     "label": "綠園道5-15M（自115號道路至綠園道8）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "綠園道5-15M",
+      "width_m": 15,
+      "length_m": 67,
+      "role": "計畫書未載明（綠園道用地）",
+      "fromTo": "自115號道路至綠園道8",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "unverified"
+     },
+     "notes": "起迄點對照：115號道路＝（主要計畫表內無此編號或無路名）；綠園道8＝（主要計畫表內無此編號或無路名）。"
+    }
+   ]
+  },
+  {
+   "id": "plan-lvyuandao6-15m",
+   "name": "計畫道路 綠園道6-15M",
+   "aliases": [
+    "綠園道6-15M"
+   ],
+   "segments": [
+    {
+     "label": "綠園道6-15M（自16號道路至綠園道8）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "綠園道6-15M",
+      "width_m": 15,
+      "length_m": 132,
+      "role": "計畫書未載明（綠園道用地）",
+      "fromTo": "自16號道路至綠園道8",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "unverified"
+     },
+     "notes": "起迄點對照：16號道路＝愛華路、仁壽路；綠園道8＝（主要計畫表內無此編號或無路名）。"
+    }
+   ]
+  },
+  {
+   "id": "plan-lvyuandao7-15m",
+   "name": "計畫道路 綠園道7-15M",
+   "aliases": [
+    "綠園道7-15M"
+   ],
+   "segments": [
+    {
+     "label": "綠園道7-15M（自115號道路至綠園道8）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "綠園道7-15M",
+      "width_m": 15,
+      "length_m": 107,
+      "role": "計畫書未載明（綠園道用地）",
+      "fromTo": "自115號道路至綠園道8",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "unverified"
+     },
+     "notes": "起迄點對照：115號道路＝（主要計畫表內無此編號或無路名）；綠園道8＝（主要計畫表內無此編號或無路名）。"
+    }
+   ]
+  },
+  {
+   "id": "plan-lvyuandao8-10m",
+   "name": "計畫道路 綠園道8-10M",
+   "aliases": [
+    "綠園道8-10M"
+   ],
+   "segments": [
+    {
+     "label": "綠園道8-10M（自住宅區至116號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "綠園道8-10M",
+      "width_m": 10,
+      "length_m": 168,
+      "role": "計畫書未載明（綠園道用地）",
+      "fromTo": "自住宅區至116號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "unverified"
+     },
+     "notes": "起迄點對照：116號道路＝（主要計畫表內無此編號或無路名）。"
+    }
+   ]
+  },
+  {
+   "id": "meiliao-rd",
+   "name": "美寮路",
+   "aliases": [
+    "9-16M",
+    "67-10M",
+    "彰6",
+    "彰6線",
+    "美寮路一段",
+    "美寮路二段"
+   ],
+   "segments": [
+    {
+     "label": "二段西端：彰美路／中山路口—德美路口",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」（「彰6線於縣道134線以西路段解編」）；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "highwayWhere": "二段西端（彰美路／中山路口—德美路口，約0.37公里）",
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "67-10M",
+      "width_m": 10,
+      "length_m": 366,
+      "role": "主要道路",
+      "fromTo": "自37號道路至9號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "likely"
+     },
+     "notes": "起迄點對照：37號道路＝中山路；9號道路＝美寮路。"
+    },
+    {
+     "label": "德美路口以東",
+     "highway": {
+      "class": "鄉道",
+      "number": "彰6",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "highwayWhere": "二段（德美路口以東）、一段（至彰新路三段口，約2.9公里）",
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "9-16M",
+      "width_m": 16,
+      "length_m": 552,
+      "role": "主要道路",
+      "fromTo": "自67號道路至計畫區東側",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "likely"
+     },
+     "notes": "起迄點對照：67號道路＝美寮路。"
+    }
+   ]
+  },
+  {
+   "id": "demei-rd",
+   "name": "德美路",
+   "aliases": [
+    "10-16M",
+    "縣道134",
+    "134"
+   ],
+   "segments": [
+    {
+     "label": "10-16M（自28號道路至綠園道1）",
+     "highway": {
+      "class": "縣道",
+      "number": "縣道134",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "highwayWhere": "全線（彰美路六段口—彰美路五段／愛德路口，約1.7公里）",
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "10-16M",
+      "width_m": 16,
+      "length_m": 1703,
+      "role": "次要及出入道路",
+      "fromTo": "自28號道路至綠園道1",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：28號道路＝愛德路；綠園道1＝道周路、彰美路。寬16公尺、長1,703公尺，但頁2-6～2-8內文的聯外道路、主要道路清單都沒有列它，依原文只能歸在「次要及出入道路」；圖2-2示意圖的畫法無法由本檔確認，定位請保守使用。"
+    }
+   ]
+  },
+  {
+   "id": "hexian-rd",
+   "name": "和線路",
+   "aliases": [
+    "11-16M",
+    "22-10M",
+    "縣道138",
+    "138"
+   ],
+   "segments": [
+    {
+     "label": "東段：五岔路口—道周路口",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "未列入交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名，沿線15公尺內無任何國道、省道、縣道、鄉道路線",
+      "confidence": "verified"
+     },
+     "highwayWhere": "東段（五岔路口—道周路口，約0.27公里）",
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "22-10M",
+      "width_m": 10,
+      "length_m": 428,
+      "role": "主要道路",
+      "fromTo": "自綠園道1至32號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：綠園道1＝道周路、彰美路；32號道路＝倡和街。此編號在計畫書備註欄同時列「和線路、中正路」，長度428公尺是整個編號的總長，計畫書沒有分列各路名的長度。"
+    },
+    {
+     "label": "西段：道周路口以西",
+     "highway": {
+      "class": "縣道",
+      "number": "縣道138",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "highwayWhere": "西段（道周路口以西—線西鄉界，約0.94公里）",
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "11-16M",
+      "width_m": 16,
+      "length_m": 397,
+      "role": "聯外道路",
+      "fromTo": "自綠園道1至計畫區西側",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：綠園道1＝道周路、彰美路。內文說明：和線路為縣道138線，向東與道周路相接，向西往線西鄉。"
+    }
+   ]
+  },
+  {
+   "id": "zhanghe-rd-sec3",
+   "name": "彰和路三段",
+   "aliases": [
+    "12-14M"
+   ],
+   "segments": [
+    {
+     "label": "12-14M（自綠園道1至計畫區南側）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "12-14M",
+      "width_m": 14,
+      "length_m": 275,
+      "role": "主要道路",
+      "fromTo": "自綠園道1至計畫區南側",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：綠園道1＝道周路、彰美路。"
+    }
+   ]
+  },
+  {
+   "id": "renchang-rd",
+   "name": "仁昌路",
+   "aliases": [
+    "13-16M"
+   ],
+   "segments": [
+    {
+     "label": "13-16M（自綠園道3至16號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "13-16M",
+      "width_m": 16,
+      "length_m": 314,
+      "role": "次要及出入道路",
+      "fromTo": "自綠園道3至16號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：綠園道3＝鹿和路；16號道路＝愛華路、仁壽路。"
+    }
+   ]
+  },
+  {
+   "id": "aiguo-rd",
+   "name": "愛國路",
+   "aliases": [
+    "15-14M"
+   ],
+   "segments": [
+    {
+     "label": "15-14M（自綠園道1至計畫區南側）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "15-14M",
+      "width_m": 14,
+      "length_m": 467,
+      "role": "次要及出入道路",
+      "fromTo": "自綠園道1至計畫區南側",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：綠園道1＝道周路、彰美路。"
+    }
+   ]
+  },
+  {
+   "id": "aihua-rd",
+   "name": "愛華路",
+   "aliases": [
+    "16-14M"
+   ],
+   "segments": [
+    {
+     "label": "16-14M（自20號道路至綠園道3）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "16-14M",
+      "width_m": 14,
+      "length_m": 1058,
+      "role": "次要及出入道路",
+      "fromTo": "自20號道路至綠園道3",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：20號道路＝永樂路、和卿路、仁美路；綠園道3＝鹿和路。此編號在計畫書備註欄同時列「愛華路、仁壽路」，長度1058公尺是整個編號的總長，計畫書沒有分列各路名的長度。"
+    }
+   ]
+  },
+  {
+   "id": "renshou-rd",
+   "name": "仁壽路",
+   "aliases": [
+    "16-14M"
+   ],
+   "segments": [
+    {
+     "label": "16-14M（自20號道路至綠園道3）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "16-14M",
+      "width_m": 14,
+      "length_m": 1058,
+      "role": "次要及出入道路",
+      "fromTo": "自20號道路至綠園道3",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：20號道路＝永樂路、和卿路、仁美路；綠園道3＝鹿和路。此編號在計畫書備註欄同時列「愛華路、仁壽路」，長度1058公尺是整個編號的總長，計畫書沒有分列各路名的長度。"
+    }
+   ]
+  },
+  {
+   "id": "renai-rd",
+   "name": "仁愛路",
+   "aliases": [
+    "17-14M"
+   ],
+   "segments": [
+    {
+     "label": "17-14M（自綠園道3至15號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "17-14M",
+      "width_m": 14,
+      "length_m": 754,
+      "role": "次要及出入道路",
+      "fromTo": "自綠園道3至15號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：綠園道3＝鹿和路；15號道路＝愛國路。"
+    }
+   ]
+  },
+  {
+   "id": "aimin-rd",
+   "name": "愛民路",
+   "aliases": [
+    "18-12M"
+   ],
+   "segments": [
+    {
+     "label": "18-12M（自7號道路至20號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "18-12M",
+      "width_m": 12,
+      "length_m": 298,
+      "role": "次要及出入道路",
+      "fromTo": "自7號道路至20號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：7號道路＝彰美路；20號道路＝永樂路、和卿路、仁美路。"
+    }
+   ]
+  },
+  {
+   "id": "renan-rd",
+   "name": "仁安路",
+   "aliases": [
+    "19-10M"
+   ],
+   "segments": [
+    {
+     "label": "19-10M（自綠園道1至33號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "19-10M",
+      "width_m": 10,
+      "length_m": 734,
+      "role": "主要道路",
+      "fromTo": "自綠園道1至33號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：綠園道1＝道周路、彰美路；33號道路＝和平街。【原文疑似誤植】表2-4長度欄印「7340」，同書頁2-7內文寫「長度約為734公尺」；本資料採734。"
+    }
+   ]
+  },
+  {
+   "id": "yongle-rd",
+   "name": "永樂路",
+   "aliases": [
+    "20-10M"
+   ],
+   "segments": [
+    {
+     "label": "20-10M（自7號道路至19號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "未列入交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名，沿線15公尺內無任何國道、省道、縣道、鄉道路線",
+      "confidence": "verified"
+     },
+     "highwayWhere": "全線（彰美路六段—五岔路口，約0.26公里）",
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "20-10M",
+      "width_m": 10,
+      "length_m": 1349,
+      "role": "主要道路",
+      "fromTo": "自7號道路至19號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：7號道路＝彰美路；19號道路＝仁安路。此編號在計畫書備註欄同時列「永樂路、和卿路、仁美路」，長度1349公尺是整個編號的總長，計畫書沒有分列各路名的長度。"
+    }
+   ]
+  },
+  {
+   "id": "heqing-rd",
+   "name": "和卿路",
+   "aliases": [
+    "20-10M"
+   ],
+   "segments": [
+    {
+     "label": "20-10M（自7號道路至19號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "未列入交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名，沿線15公尺內無任何國道、省道、縣道、鄉道路線",
+      "confidence": "verified"
+     },
+     "highwayWhere": "全線（五岔路口—鹿和路六段／仁美路口，約0.54公里）",
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "20-10M",
+      "width_m": 10,
+      "length_m": 1349,
+      "role": "主要道路",
+      "fromTo": "自7號道路至19號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：7號道路＝彰美路；19號道路＝仁安路。此編號在計畫書備註欄同時列「永樂路、和卿路、仁美路」，長度1349公尺是整個編號的總長，計畫書沒有分列各路名的長度。"
+    }
+   ]
+  },
+  {
+   "id": "renmei-rd",
+   "name": "仁美路",
+   "aliases": [
+    "20-10M",
+    "36-10M"
+   ],
+   "segments": [
+    {
+     "label": "20-10M（自7號道路至19號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "20-10M",
+      "width_m": 10,
+      "length_m": 1349,
+      "role": "主要道路",
+      "fromTo": "自7號道路至19號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：7號道路＝彰美路；19號道路＝仁安路。此編號在計畫書備註欄同時列「永樂路、和卿路、仁美路」，長度1349公尺是整個編號的總長，計畫書沒有分列各路名的長度。"
+    },
+    {
+     "label": "36-10M（自6號道路至19號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "36-10M",
+      "width_m": 10,
+      "length_m": 100,
+      "role": "主要道路",
+      "fromTo": "自6號道路至19號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：6號道路＝彰美路；19號道路＝仁安路。"
+    }
+   ]
+  },
+  {
+   "id": "pingan-rd",
+   "name": "平安路",
+   "aliases": [
+    "21-10M"
+   ],
+   "segments": [
+    {
+     "label": "21-10M（自52號道路至綠園道1）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "21-10M",
+      "width_m": 10,
+      "length_m": 1074,
+      "role": "次要及出入道路",
+      "fromTo": "自52號道路至綠園道1",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：52號道路＝和順路；綠園道1＝道周路、彰美路。此編號在計畫書備註欄同時列「平安路、仁化路」，長度1074公尺是整個編號的總長，計畫書沒有分列各路名的長度。"
+    }
+   ]
+  },
+  {
+   "id": "renhua-rd",
+   "name": "仁化路",
+   "aliases": [
+    "21-10M"
+   ],
+   "segments": [
+    {
+     "label": "21-10M（自52號道路至綠園道1）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "21-10M",
+      "width_m": 10,
+      "length_m": 1074,
+      "role": "次要及出入道路",
+      "fromTo": "自52號道路至綠園道1",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：52號道路＝和順路；綠園道1＝道周路、彰美路。此編號在計畫書備註欄同時列「平安路、仁化路」，長度1074公尺是整個編號的總長，計畫書沒有分列各路名的長度。"
+    }
+   ]
+  },
+  {
+   "id": "zhongzheng-rd",
+   "name": "中正路",
+   "aliases": [
+    "22-10M"
+   ],
+   "segments": [
+    {
+     "label": "22-10M（自綠園道1至32號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "未列入交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名，沿線15公尺內無任何國道、省道、縣道、鄉道路線",
+      "confidence": "verified"
+     },
+     "highwayWhere": "全線（中山路—鹿和路六段口—五岔路口，約0.42公里）",
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "22-10M",
+      "width_m": 10,
+      "length_m": 428,
+      "role": "主要道路",
+      "fromTo": "自綠園道1至32號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：綠園道1＝道周路、彰美路；32號道路＝倡和街。此編號在計畫書備註欄同時列「和線路、中正路」，長度428公尺是整個編號的總長，計畫書沒有分列各路名的長度。"
+    }
+   ]
+  },
+  {
+   "id": "heguang-rd",
+   "name": "和光路",
+   "aliases": [
+    "23-10M"
+   ],
+   "segments": [
+    {
+     "label": "23-10M（自20號道路至計畫區西側）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "未列入交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名，沿線15公尺內無任何國道、省道、縣道、鄉道路線",
+      "confidence": "verified"
+     },
+     "highwayWhere": "全線（鹿和路六段—和卿路—道周路—布西路以西）",
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "23-10M",
+      "width_m": 10,
+      "length_m": 564,
+      "role": "次要及出入道路",
+      "fromTo": "自20號道路至計畫區西側",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：20號道路＝永樂路、和卿路、仁美路。"
+    }
+   ]
+  },
+  {
+   "id": "pingshun-rd",
+   "name": "平順路",
+   "aliases": [
+    "24-10M"
+   ],
+   "segments": [
+    {
+     "label": "24-10M（自7號道路至24號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "24-10M",
+      "width_m": 10,
+      "length_m": 582,
+      "role": "次要及出入道路",
+      "fromTo": "自7號道路至24號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：7號道路＝彰美路；24號道路＝平順路、和利路。此編號在計畫書備註欄同時列「平順路、和利路」，長度582公尺是整個編號的總長，計畫書沒有分列各路名的長度。【原文疑似誤植】表2-4起迄點寫「自7號道路至24號道路」（終點是自己的編號），照原文收錄。"
+    }
+   ]
+  },
+  {
+   "id": "heli-rd",
+   "name": "和利路",
+   "aliases": [
+    "24-10M"
+   ],
+   "segments": [
+    {
+     "label": "24-10M（自7號道路至24號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "24-10M",
+      "width_m": 10,
+      "length_m": 582,
+      "role": "次要及出入道路",
+      "fromTo": "自7號道路至24號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：7號道路＝彰美路；24號道路＝平順路、和利路。此編號在計畫書備註欄同時列「平順路、和利路」，長度582公尺是整個編號的總長，計畫書沒有分列各路名的長度。【原文疑似誤植】表2-4起迄點寫「自7號道路至24號道路」（終點是自己的編號），照原文收錄。"
+    }
+   ]
+  },
+  {
+   "id": "hele-rd",
+   "name": "和樂路",
+   "aliases": [
+    "25-10M"
+   ],
+   "segments": [
+    {
+     "label": "25-10M（自24號道路至32號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "25-10M",
+      "width_m": 10,
+      "length_m": 223,
+      "role": "次要及出入道路",
+      "fromTo": "自24號道路至32號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：24號道路＝平順路、和利路；32號道路＝倡和街。"
+    }
+   ]
+  },
+  {
+   "id": "pinglin-rd",
+   "name": "平林路",
+   "aliases": [
+    "26-10M"
+   ],
+   "segments": [
+    {
+     "label": "26-10M（自24號道路至55號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "26-10M",
+      "width_m": 10,
+      "length_m": 535,
+      "role": "次要及出入道路",
+      "fromTo": "自24號道路至55號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：24號道路＝平順路、和利路；55號道路＝西園路。"
+    }
+   ]
+  },
+  {
+   "id": "aiqun-rd",
+   "name": "愛群路",
+   "aliases": [
+    "27-10M"
+   ],
+   "segments": [
+    {
+     "label": "27-10M（自7號道路至19號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "27-10M",
+      "width_m": 10,
+      "length_m": 102,
+      "role": "次要及出入道路",
+      "fromTo": "自7號道路至19號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：7號道路＝彰美路；19號道路＝仁安路。"
+    }
+   ]
+  },
+  {
+   "id": "aide-rd",
+   "name": "愛德路",
+   "aliases": [
+    "28-10M"
+   ],
+   "segments": [
+    {
+     "label": "28-10M（自10號道路至19號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "28-10M",
+      "width_m": 10,
+      "length_m": 72,
+      "role": "次要及出入道路",
+      "fromTo": "自10號道路至19號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：10號道路＝德美路；19號道路＝仁安路。"
+    }
+   ]
+  },
+  {
+   "id": "aiwu-rd",
+   "name": "愛物路",
+   "aliases": [
+    "29-10M"
+   ],
+   "segments": [
+    {
+     "label": "29-10M（自19號道路至21號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "29-10M",
+      "width_m": 10,
+      "length_m": 117,
+      "role": "次要及出入道路",
+      "fromTo": "自19號道路至21號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：19號道路＝仁安路；21號道路＝平安路、仁化路。"
+    }
+   ]
+  },
+  {
+   "id": "zhongshan-rd",
+   "name": "中山路",
+   "aliases": [
+    "30-10M",
+    "37-10M"
+   ],
+   "segments": [
+    {
+     "label": "30-10M（自19號道路至21號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "30-10M",
+      "width_m": 10,
+      "length_m": 121,
+      "role": "次要及出入道路",
+      "fromTo": "自19號道路至21號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：19號道路＝仁安路；21號道路＝平安路、仁化路。"
+    },
+    {
+     "label": "37-10M（自7號道路至19號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "37-10M",
+      "width_m": 10,
+      "length_m": 93,
+      "role": "次要及出入道路",
+      "fromTo": "自7號道路至19號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：7號道路＝彰美路；19號道路＝仁安路。"
+    }
+   ]
+  },
+  {
+   "id": "xiyuan-rd",
+   "name": "西園路",
+   "aliases": [
+    "31-8M",
+    "55-10M",
+    "彰209",
+    "彰209線",
+    "鄉道彰209"
+   ],
+   "segments": [
+    {
+     "label": "東段：五岔路口—道周路口（和美高中旁）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "未列入交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名，沿線15公尺內無任何國道、省道、縣道、鄉道路線",
+      "confidence": "verified"
+     },
+     "highwayWhere": "東段（中正路／永樂路／和卿路／和線路五岔路口—道周路口，約0.3公里）",
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "31-8M",
+      "width_m": 8,
+      "length_m": 295,
+      "role": "次要及出入道路",
+      "fromTo": "自22號道路至綠園道1",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：22號道路＝和線路、中正路；綠園道1＝道周路、彰美路。和美高中旁。計畫書只把聯外、主要以外的道路統稱「次要及出入道路」，沒有逐條區分次要或出入；課堂簡報稱「出入道路」與此不衝突，但計畫書本身沒有單獨寫這四個字。"
+    },
+    {
+     "label": "西段：道周路口以西",
+     "highway": {
+      "class": "鄉道",
+      "number": "彰209",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名；交通部106年11月3日交路字第1060414172號公告附圖24（彰209線0K+000＝原縣道139甲線3K+691）",
+      "confidence": "verified"
+     },
+     "highwayWhere": "西段（道周路口以西—線西鄉界，約1.2公里）",
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "55-10M",
+      "width_m": 10,
+      "length_m": 414,
+      "role": "次要及出入道路",
+      "fromTo": "自綠園道1至計畫區西側",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：綠園道1＝道周路、彰美路。第四次通盤檢討變更內容：55號道路(西園路)已配合區外道路系統完成開闢，南側部分剔除於計畫區外。與31-8M同名但不同編號。\n過了道周路口，路名還是西園路，但身分變成鄉道彰209。計畫編號55-10M只到都市計畫區西側邊界（約414公尺），再往西仍是彰209，但已不在都市計畫範圍內。"
+    }
+   ]
+  },
+  {
+   "id": "changhe-st",
+   "name": "倡和街",
+   "aliases": [
+    "32-8M"
+   ],
+   "segments": [
+    {
+     "label": "32-8M（自7號道路至33號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "32-8M",
+      "width_m": 8,
+      "length_m": 82,
+      "role": "次要及出入道路",
+      "fromTo": "自7號道路至33號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：7號道路＝彰美路；33號道路＝和平街。"
+    }
+   ]
+  },
+  {
+   "id": "heping-st",
+   "name": "和平街",
+   "aliases": [
+    "33-8M"
+   ],
+   "segments": [
+    {
+     "label": "33-8M（自20號道路至19號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "33-8M",
+      "width_m": 8,
+      "length_m": 303,
+      "role": "主要道路",
+      "fromTo": "自20號道路至19號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：20號道路＝永樂路、和卿路、仁美路；19號道路＝仁安路。"
+    }
+   ]
+  },
+  {
+   "id": "aiyong-st",
+   "name": "愛永街",
+   "aliases": [
+    "35-8M"
+   ],
+   "segments": [
+    {
+     "label": "35-8M（自21號道路至20號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "35-8M",
+      "width_m": 8,
+      "length_m": 82,
+      "role": "次要及出入道路",
+      "fromTo": "自21號道路至20號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：21號道路＝平安路、仁化路；20號道路＝永樂路、和卿路、仁美路。"
+    }
+   ]
+  },
+  {
+   "id": "aixi-rd",
+   "name": "愛惜路",
+   "aliases": [
+    "39-16M"
+   ],
+   "segments": [
+    {
+     "label": "39-16M（自綠園道1至綠園道2）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "39-16M",
+      "width_m": 16,
+      "length_m": 174,
+      "role": "次要及出入道路",
+      "fromTo": "自綠園道1至綠園道2",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：綠園道1＝道周路、彰美路；綠園道2＝鹿和路。"
+    }
+   ]
+  },
+  {
+   "id": "renyu-rd",
+   "name": "仁宇路",
+   "aliases": [
+    "40-10M"
+   ],
+   "segments": [
+    {
+     "label": "40-10M（自16號道路至16號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "40-10M",
+      "width_m": 10,
+      "length_m": 857,
+      "role": "次要及出入道路",
+      "fromTo": "自16號道路至16號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：16號道路＝愛華路、仁壽路。此編號在計畫書備註欄同時列「仁宇路、愛和路」，長度857公尺是整個編號的總長，計畫書沒有分列各路名的長度。"
+    }
+   ]
+  },
+  {
+   "id": "aihe-rd",
+   "name": "愛和路",
+   "aliases": [
+    "40-10M"
+   ],
+   "segments": [
+    {
+     "label": "40-10M（自16號道路至16號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "40-10M",
+      "width_m": 10,
+      "length_m": 857,
+      "role": "次要及出入道路",
+      "fromTo": "自16號道路至16號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：16號道路＝愛華路、仁壽路。此編號在計畫書備註欄同時列「仁宇路、愛和路」，長度857公尺是整個編號的總長，計畫書沒有分列各路名的長度。"
+    }
+   ]
+  },
+  {
+   "id": "aixin-rd",
+   "name": "愛新路",
+   "aliases": [
+    "41-10M"
+   ],
+   "segments": [
+    {
+     "label": "41-10M（自16號道路至42號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "41-10M",
+      "width_m": 10,
+      "length_m": 515,
+      "role": "次要及出入道路",
+      "fromTo": "自16號道路至42號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：16號道路＝愛華路、仁壽路；42號道路＝愛鄉路。"
+    }
+   ]
+  },
+  {
+   "id": "aixiang-rd",
+   "name": "愛鄉路",
+   "aliases": [
+    "42-10M"
+   ],
+   "segments": [
+    {
+     "label": "42-10M（自50號道路至15號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "42-10M",
+      "width_m": 10,
+      "length_m": 482,
+      "role": "次要及出入道路",
+      "fromTo": "自50號道路至15號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：50號道路＝仁親路；15號道路＝愛國路。"
+    }
+   ]
+  },
+  {
+   "id": "renyang-rd",
+   "name": "仁仰路",
+   "aliases": [
+    "43-10M"
+   ],
+   "segments": [
+    {
+     "label": "43-10M（自40號道路至45號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "43-10M",
+      "width_m": 10,
+      "length_m": 172,
+      "role": "次要及出入道路",
+      "fromTo": "自40號道路至45號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：40號道路＝仁宇路、愛和路；45號道路＝愛禮路。"
+    }
+   ]
+  },
+  {
+   "id": "renwang-rd",
+   "name": "仁望路",
+   "aliases": [
+    "44-10M"
+   ],
+   "segments": [
+    {
+     "label": "44-10M（自40號道路至45號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "44-10M",
+      "width_m": 10,
+      "length_m": 188,
+      "role": "次要及出入道路",
+      "fromTo": "自40號道路至45號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：40號道路＝仁宇路、愛和路；45號道路＝愛禮路。"
+    }
+   ]
+  },
+  {
+   "id": "aili-rd",
+   "name": "愛禮路",
+   "aliases": [
+    "45-10M"
+   ],
+   "segments": [
+    {
+     "label": "45-10M（自13號道路至17號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "45-10M",
+      "width_m": 10,
+      "length_m": 184,
+      "role": "次要及出入道路",
+      "fromTo": "自13號道路至17號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：13號道路＝仁昌路；17號道路＝仁愛路。"
+    }
+   ]
+  },
+  {
+   "id": "aiwen-rd",
+   "name": "愛聞路",
+   "aliases": [
+    "46-10M"
+   ],
+   "segments": [
+    {
+     "label": "46-10M（自17號道路至16號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "46-10M",
+      "width_m": 10,
+      "length_m": 182,
+      "role": "次要及出入道路",
+      "fromTo": "自17號道路至16號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：17號道路＝仁愛路；16號道路＝愛華路、仁壽路。"
+    }
+   ]
+  },
+  {
+   "id": "aijie-rd",
+   "name": "愛節路",
+   "aliases": [
+    "47-10M"
+   ],
+   "segments": [
+    {
+     "label": "47-10M（自16號道路至40號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "47-10M",
+      "width_m": 10,
+      "length_m": 75,
+      "role": "次要及出入道路",
+      "fromTo": "自16號道路至40號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：16號道路＝愛華路、仁壽路；40號道路＝仁宇路、愛和路。"
+    }
+   ]
+  },
+  {
+   "id": "aihun-rd",
+   "name": "愛渾路",
+   "aliases": [
+    "48-10M"
+   ],
+   "segments": [
+    {
+     "label": "48-10M（自41號道路至50號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "48-10M",
+      "width_m": 10,
+      "length_m": 153,
+      "role": "次要及出入道路",
+      "fromTo": "自41號道路至50號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-12（PDF第28頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：41號道路＝愛新路；50號道路＝仁親路。"
+    }
+   ]
+  },
+  {
+   "id": "renze-rd",
+   "name": "仁澤路",
+   "aliases": [
+    "49-10M"
+   ],
+   "segments": [
+    {
+     "label": "49-10M（自48號道路至41號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "49-10M",
+      "width_m": 10,
+      "length_m": 138,
+      "role": "次要及出入道路",
+      "fromTo": "自48號道路至41號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：48號道路＝愛渾路；41號道路＝愛新路。"
+    }
+   ]
+  },
+  {
+   "id": "renqin-rd",
+   "name": "仁親路",
+   "aliases": [
+    "50-10M"
+   ],
+   "segments": [
+    {
+     "label": "50-10M（自16號道路至41號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "50-10M",
+      "width_m": 10,
+      "length_m": 245,
+      "role": "次要及出入道路",
+      "fromTo": "自16號道路至41號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：16號道路＝愛華路、仁壽路；41號道路＝愛新路。"
+    }
+   ]
+  },
+  {
+   "id": "renfeng-rd",
+   "name": "仁風路",
+   "aliases": [
+    "51-10M"
+   ],
+   "segments": [
+    {
+     "label": "51-10M（自42號道路至41號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "51-10M",
+      "width_m": 10,
+      "length_m": 146,
+      "role": "次要及出入道路",
+      "fromTo": "自42號道路至41號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：42號道路＝愛鄉路；41號道路＝愛新路。"
+    }
+   ]
+  },
+  {
+   "id": "heshun-rd",
+   "name": "和順路",
+   "aliases": [
+    "52-10M"
+   ],
+   "segments": [
+    {
+     "label": "52-10M（自53號道路至13號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "52-10M",
+      "width_m": 10,
+      "length_m": 752,
+      "role": "次要及出入道路",
+      "fromTo": "自53號道路至13號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：53號道路＝和善路；13號道路＝仁昌路。"
+    }
+   ]
+  },
+  {
+   "id": "heshan-rd",
+   "name": "和善路",
+   "aliases": [
+    "53-10M"
+   ],
+   "segments": [
+    {
+     "label": "53-10M（自55號道路至21號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "53-10M",
+      "width_m": 10,
+      "length_m": 490,
+      "role": "次要及出入道路",
+      "fromTo": "自55號道路至21號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：55號道路＝西園路；21號道路＝平安路、仁化路。"
+    }
+   ]
+  },
+  {
+   "id": "pingyuan-rd",
+   "name": "平原路",
+   "aliases": [
+    "54-10M"
+   ],
+   "segments": [
+    {
+     "label": "54-10M（自綠園道1至26號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "54-10M",
+      "width_m": 10,
+      "length_m": 691,
+      "role": "次要及出入道路",
+      "fromTo": "自綠園道1至26號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：綠園道1＝道周路、彰美路；26號道路＝平林路。"
+    }
+   ]
+  },
+  {
+   "id": "hejian-rd",
+   "name": "和建路",
+   "aliases": [
+    "56-10M"
+   ],
+   "segments": [
+    {
+     "label": "56-10M（自綠園道3至計畫區西側）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "56-10M",
+      "width_m": 10,
+      "length_m": 395,
+      "role": "次要及出入道路",
+      "fromTo": "自綠園道3至計畫區西側",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：綠園道3＝鹿和路。"
+    }
+   ]
+  },
+  {
+   "id": "hetai-rd",
+   "name": "和泰路",
+   "aliases": [
+    "57-10M"
+   ],
+   "segments": [
+    {
+     "label": "57-10M（自54號道路至54號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "57-10M",
+      "width_m": 10,
+      "length_m": 144,
+      "role": "次要及出入道路",
+      "fromTo": "自54號道路至54號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：54號道路＝平原路。"
+    }
+   ]
+  },
+  {
+   "id": "hexing-rd",
+   "name": "和興路",
+   "aliases": [
+    "58-10M"
+   ],
+   "segments": [
+    {
+     "label": "58-10M（自54號道路至54號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "58-10M",
+      "width_m": 10,
+      "length_m": 248,
+      "role": "次要及出入道路",
+      "fromTo": "自54號道路至54號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：54號道路＝平原路。"
+    }
+   ]
+  },
+  {
+   "id": "pingliang-rd",
+   "name": "平涼路",
+   "aliases": [
+    "59-10M"
+   ],
+   "segments": [
+    {
+     "label": "59-10M（自53號道路至52號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "59-10M",
+      "width_m": 10,
+      "length_m": 84,
+      "role": "次要及出入道路",
+      "fromTo": "自53號道路至52號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：53號道路＝和善路；52號道路＝和順路。"
+    }
+   ]
+  },
+  {
+   "id": "pingshan-rd",
+   "name": "平山路",
+   "aliases": [
+    "60-10M"
+   ],
+   "segments": [
+    {
+     "label": "60-10M（自53號道路至52號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "60-10M",
+      "width_m": 10,
+      "length_m": 125,
+      "role": "次要及出入道路",
+      "fromTo": "自53號道路至52號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：53號道路＝和善路；52號道路＝和順路。"
+    }
+   ]
+  },
+  {
+   "id": "hejing-rd",
+   "name": "和靖路",
+   "aliases": [
+    "61-10M"
+   ],
+   "segments": [
+    {
+     "label": "61-10M（自60號道路至綠園道2）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "61-10M",
+      "width_m": 10,
+      "length_m": 325,
+      "role": "次要及出入道路",
+      "fromTo": "自60號道路至綠園道2",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：60號道路＝平山路；綠園道2＝鹿和路。"
+    }
+   ]
+  },
+  {
+   "id": "hecuo-rd-sec1",
+   "name": "和厝路一段",
+   "aliases": [
+    "62-12M"
+   ],
+   "segments": [
+    {
+     "label": "62-12M（自7號道路至計畫區北側）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "62-12M",
+      "width_m": 12,
+      "length_m": 399,
+      "role": "主要道路",
+      "fromTo": "自7號道路至計畫區北側",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：7號道路＝彰美路。"
+    }
+   ]
+  },
+  {
+   "id": "zhongquan-rd",
+   "name": "忠全路",
+   "aliases": [
+    "63-12M"
+   ],
+   "segments": [
+    {
+     "label": "63-12M（自10號道路至78號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "63-12M",
+      "width_m": 12,
+      "length_m": 891,
+      "role": "次要及出入道路",
+      "fromTo": "自10號道路至78號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：10號道路＝德美路；78號道路＝忠孝路。此編號在計畫書備註欄同時列「忠全路、孝倫路」，長度891公尺是整個編號的總長，計畫書沒有分列各路名的長度。"
+    }
+   ]
+  },
+  {
+   "id": "xiaolun-rd",
+   "name": "孝倫路",
+   "aliases": [
+    "63-12M"
+   ],
+   "segments": [
+    {
+     "label": "63-12M（自10號道路至78號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "63-12M",
+      "width_m": 12,
+      "length_m": 891,
+      "role": "次要及出入道路",
+      "fromTo": "自10號道路至78號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：10號道路＝德美路；78號道路＝忠孝路。此編號在計畫書備註欄同時列「忠全路、孝倫路」，長度891公尺是整個編號的總長，計畫書沒有分列各路名的長度。"
+    }
+   ]
+  },
+  {
+   "id": "hetou-rd",
+   "name": "和頭路",
+   "aliases": [
+    "64-10M",
+    "彰9",
+    "彰9線",
+    "彰9-1",
+    "彰9-1線"
+   ],
+   "segments": [
+    {
+     "label": "64-10M 的範圍（美寮路口—計畫區北側）",
+     "highway": null,
+     "highwayCandidates": [
+      {
+       "label": "南端（彰美路／中山路口—德美路口，約0.44公里）",
+       "class": "none",
+       "number": null,
+       "authority": null,
+       "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」（「彰9線於縣道134線以南路段解編」）；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+       "confidence": "verified"
+      },
+      {
+       "label": "德美路口—北堂路口（約0.9公里）",
+       "class": "鄉道",
+       "number": "彰9",
+       "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+       "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+       "confidence": "verified"
+      },
+      {
+       "label": "北堂路口—彰新路五段（約1.28公里）",
+       "class": "鄉道",
+       "number": "彰9-1",
+       "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+       "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+       "confidence": "verified"
+      }
+     ],
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "64-10M",
+      "width_m": 10,
+      "length_m": 637,
+      "role": "次要及出入道路",
+      "fromTo": "自67號道路至計畫區北側",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：67號道路＝美寮路。"
+    }
+   ]
+  },
+  {
+   "id": "xinyi-rd",
+   "name": "信義路",
+   "aliases": [
+    "65-10M"
+   ],
+   "segments": [
+    {
+     "label": "65-10M（自10號道路至67號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "65-10M",
+      "width_m": 10,
+      "length_m": 662,
+      "role": "次要及出入道路",
+      "fromTo": "自10號道路至67號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：10號道路＝德美路；67號道路＝美寮路。表2-4備註：信義路(部分開闢)。"
+    }
+   ]
+  },
+  {
+   "id": "yimin-rd",
+   "name": "義民路",
+   "aliases": [
+    "66-10M"
+   ],
+   "segments": [
+    {
+     "label": "66-10M（自10號道路至計畫區北側）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "66-10M",
+      "width_m": 10,
+      "length_m": 342,
+      "role": "次要及出入道路",
+      "fromTo": "自10號道路至計畫區北側",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：10號道路＝德美路。"
+    }
+   ]
+  },
+  {
+   "id": "xiaowu-rd",
+   "name": "孝武路",
+   "aliases": [
+    "68-10M"
+   ],
+   "segments": [
+    {
+     "label": "68-10M（自75號道路至81號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "68-10M",
+      "width_m": 10,
+      "length_m": 169,
+      "role": "次要及出入道路",
+      "fromTo": "自75號道路至81號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：75號道路＝忠善路；81號道路＝忠誠路。"
+    }
+   ]
+  },
+  {
+   "id": "xiaoci-rd",
+   "name": "孝慈路",
+   "aliases": [
+    "69-10M"
+   ],
+   "segments": [
+    {
+     "label": "69-10M（自74號道路至67號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "69-10M",
+      "width_m": 10,
+      "length_m": 109,
+      "role": "次要及出入道路",
+      "fromTo": "自74號道路至67號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：74號道路＝忠信路；67號道路＝美寮路。"
+    }
+   ]
+  },
+  {
+   "id": "xinan-rd",
+   "name": "信安路",
+   "aliases": [
+    "70-10M"
+   ],
+   "segments": [
+    {
+     "label": "70-10M（自66號道路至10號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "70-10M",
+      "width_m": 10,
+      "length_m": 224,
+      "role": "次要及出入道路",
+      "fromTo": "自66號道路至10號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：66號道路＝義民路；10號道路＝德美路。"
+    }
+   ]
+  },
+  {
+   "id": "yimei-rd",
+   "name": "義美路",
+   "aliases": [
+    "71-10M"
+   ],
+   "segments": [
+    {
+     "label": "71-10M（自10號道路至65號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "71-10M",
+      "width_m": 10,
+      "length_m": 298,
+      "role": "次要及出入道路",
+      "fromTo": "自10號道路至65號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：10號道路＝德美路；65號道路＝信義路。"
+    }
+   ]
+  },
+  {
+   "id": "yili-rd",
+   "name": "義利路",
+   "aliases": [
+    "72-10M"
+   ],
+   "segments": [
+    {
+     "label": "72-10M（自73號道路至65號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "72-10M",
+      "width_m": 10,
+      "length_m": 190,
+      "role": "次要及出入道路",
+      "fromTo": "自73號道路至65號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：73號道路＝信陵路；65號道路＝信義路。"
+    }
+   ]
+  },
+  {
+   "id": "xinling-rd",
+   "name": "信陵路",
+   "aliases": [
+    "73-10M"
+   ],
+   "segments": [
+    {
+     "label": "73-10M（自65號道路至71號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "73-10M",
+      "width_m": 10,
+      "length_m": 176,
+      "role": "次要及出入道路",
+      "fromTo": "自65號道路至71號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：65號道路＝信義路；71號道路＝義美路。"
+    }
+   ]
+  },
+  {
+   "id": "zhongxin-rd",
+   "name": "忠信路",
+   "aliases": [
+    "74-10M"
+   ],
+   "segments": [
+    {
+     "label": "74-10M（自64號道路至10號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "74-10M",
+      "width_m": 10,
+      "length_m": 235,
+      "role": "次要及出入道路",
+      "fromTo": "自64號道路至10號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：64號道路＝和頭路；10號道路＝德美路。"
+    }
+   ]
+  },
+  {
+   "id": "zhongshan-rd-75",
+   "name": "忠善路",
+   "aliases": [
+    "75-10M"
+   ],
+   "segments": [
+    {
+     "label": "75-10M（自63號道路至63號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "75-10M",
+      "width_m": 10,
+      "length_m": 364,
+      "role": "次要及出入道路",
+      "fromTo": "自63號道路至63號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：63號道路＝忠全路、孝倫路。"
+    }
+   ]
+  },
+  {
+   "id": "zhongxiao-rd",
+   "name": "忠孝路",
+   "aliases": [
+    "78-12M"
+   ],
+   "segments": [
+    {
+     "label": "78-12M（自7號道路至63號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "78-12M",
+      "width_m": 12,
+      "length_m": 713,
+      "role": "次要及出入道路",
+      "fromTo": "自7號道路至63號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：7號道路＝彰美路；63號道路＝忠全路、孝倫路。"
+    }
+   ]
+  },
+  {
+   "id": "xiaowen-rd",
+   "name": "孝文路",
+   "aliases": [
+    "79-12M"
+   ],
+   "segments": [
+    {
+     "label": "79-12M（自78號道路至6號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "79-12M",
+      "width_m": 12,
+      "length_m": 470,
+      "role": "次要及出入道路",
+      "fromTo": "自78號道路至6號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：78號道路＝忠孝路；6號道路＝彰美路。"
+    }
+   ]
+  },
+  {
+   "id": "zhongqin-rd",
+   "name": "忠勤路",
+   "aliases": [
+    "80-10M"
+   ],
+   "segments": [
+    {
+     "label": "80-10M（自10號道路至綠園道1）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "80-10M",
+      "width_m": 10,
+      "length_m": 689,
+      "role": "次要及出入道路",
+      "fromTo": "自10號道路至綠園道1",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：10號道路＝德美路；綠園道1＝道周路、彰美路。此編號在計畫書備註欄同時列「忠勤路、孝德路」，長度689公尺是整個編號的總長，計畫書沒有分列各路名的長度。"
+    }
+   ]
+  },
+  {
+   "id": "xiaode-rd",
+   "name": "孝德路",
+   "aliases": [
+    "80-10M"
+   ],
+   "segments": [
+    {
+     "label": "80-10M（自10號道路至綠園道1）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "80-10M",
+      "width_m": 10,
+      "length_m": 689,
+      "role": "次要及出入道路",
+      "fromTo": "自10號道路至綠園道1",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：10號道路＝德美路；綠園道1＝道周路、彰美路。此編號在計畫書備註欄同時列「忠勤路、孝德路」，長度689公尺是整個編號的總長，計畫書沒有分列各路名的長度。"
+    }
+   ]
+  },
+  {
+   "id": "zhongcheng-rd",
+   "name": "忠誠路",
+   "aliases": [
+    "81-10M"
+   ],
+   "segments": [
+    {
+     "label": "81-10M（自10號道路至63號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "81-10M",
+      "width_m": 10,
+      "length_m": 353,
+      "role": "次要及出入道路",
+      "fromTo": "自10號道路至63號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：10號道路＝德美路；63號道路＝忠全路、孝倫路。"
+    }
+   ]
+  },
+  {
+   "id": "xiaoyou-rd",
+   "name": "孝友路",
+   "aliases": [
+    "82-10M"
+   ],
+   "segments": [
+    {
+     "label": "82-10M（自80號道路至81號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "82-10M",
+      "width_m": 10,
+      "length_m": 333,
+      "role": "次要及出入道路",
+      "fromTo": "自80號道路至81號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：80號道路＝忠勤路、孝德路；81號道路＝忠誠路。"
+    }
+   ]
+  },
+  {
+   "id": "xiaoguang-rd",
+   "name": "孝光路",
+   "aliases": [
+    "83-10M"
+   ],
+   "segments": [
+    {
+     "label": "83-10M（自67號道路至10號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "83-10M",
+      "width_m": 10,
+      "length_m": 333,
+      "role": "次要及出入道路",
+      "fromTo": "自67號道路至10號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：67號道路＝美寮路；10號道路＝德美路。"
+    }
+   ]
+  },
+  {
+   "id": "zhongming-rd",
+   "name": "忠明路",
+   "aliases": [
+    "84-10M"
+   ],
+   "segments": [
+    {
+     "label": "84-10M（自78號道路至83號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "84-10M",
+      "width_m": 10,
+      "length_m": 218,
+      "role": "次要及出入道路",
+      "fromTo": "自78號道路至83號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：78號道路＝忠孝路；83號道路＝孝光路。"
+    }
+   ]
+  },
+  {
+   "id": "zhongxing-rd",
+   "name": "忠行路",
+   "aliases": [
+    "85-10M"
+   ],
+   "segments": [
+    {
+     "label": "85-10M（自82號道路至86號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "85-10M",
+      "width_m": 10,
+      "length_m": 182,
+      "role": "次要及出入道路",
+      "fromTo": "自82號道路至86號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：82號道路＝孝友路；86號道路＝孝順路。"
+    }
+   ]
+  },
+  {
+   "id": "xiaoshun-rd",
+   "name": "孝順路",
+   "aliases": [
+    "86-10M"
+   ],
+   "segments": [
+    {
+     "label": "86-10M（自81號道路至78號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "86-10M",
+      "width_m": 10,
+      "length_m": 205,
+      "role": "次要及出入道路",
+      "fromTo": "自81號道路至78號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：81號道路＝忠誠路；78號道路＝忠孝路。"
+    }
+   ]
+  },
+  {
+   "id": "zhongyong-rd",
+   "name": "忠勇路",
+   "aliases": [
+    "87-10M"
+   ],
+   "segments": [
+    {
+     "label": "87-10M（自79號道路至80號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "87-10M",
+      "width_m": 10,
+      "length_m": 218,
+      "role": "次要及出入道路",
+      "fromTo": "自79號道路至80號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：79號道路＝孝文路；80號道路＝忠勤路、孝德路。"
+    }
+   ]
+  },
+  {
+   "id": "xiaolian-rd",
+   "name": "孝廉路",
+   "aliases": [
+    "88-10M"
+   ],
+   "segments": [
+    {
+     "label": "88-10M（自80號道路至87號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "88-10M",
+      "width_m": 10,
+      "length_m": 134,
+      "role": "次要及出入道路",
+      "fromTo": "自80號道路至87號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：80號道路＝忠勤路、孝德路；87號道路＝忠勇路。"
+    }
+   ]
+  },
+  {
+   "id": "plan-89-8m",
+   "name": "計畫道路 89-8M",
+   "aliases": [
+    "89-8M"
+   ],
+   "segments": [
+    {
+     "label": "89-8M（自82號道路至79號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "89-8M",
+      "width_m": 8,
+      "length_m": 104,
+      "role": "次要及出入道路",
+      "fromTo": "自82號道路至79號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "unverified"
+     },
+     "notes": "起迄點對照：82號道路＝孝友路；79號道路＝孝文路。表2-4備註：(未開闢)，沒有路名。"
+    }
+   ]
+  },
+  {
+   "id": "zhongshu-rd",
+   "name": "忠恕路",
+   "aliases": [
+    "90-10M"
+   ],
+   "segments": [
+    {
+     "label": "90-10M（自63號道路至63號道路）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日公告之彰化縣公路路線（公路局圖說公路平台）套疊比對，沿線無公路路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "90-10M",
+      "width_m": 10,
+      "length_m": 383,
+      "role": "次要及出入道路",
+      "fromTo": "自63號道路至63號道路",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：63號道路＝忠全路、孝倫路。"
+    }
+   ]
+  },
+  {
+   "id": "ximei-rd",
+   "name": "西美路",
+   "aliases": [
+    "95-15M",
+    "彰192",
+    "彰192線"
+   ],
+   "segments": [
+    {
+     "label": "95-15M（自綠園道1至計畫區西北側）",
+     "highway": {
+      "class": "鄉道",
+      "number": "彰192",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名；交通部106年11月3日交路字第1060414172號公告附圖19（原縣道138甲線舊線改編為彰192線）",
+      "confidence": "verified"
+     },
+     "highwayWhere": "和美鎮內段（彰美路六段／和港路口—線西鄉界，約0.69公里）",
+     "urbanPlan": {
+      "inPlan": true,
+      "planName": "和美都市計畫（和美主要計畫）",
+      "code": "95-15M",
+      "width_m": 15,
+      "length_m": 80,
+      "role": "次要及出入道路",
+      "fromTo": "自綠園道1至計畫區西北側",
+      "source": "變更和美主要計畫（第四次通盤檢討）（變更內容明細表新編號第3案、第4案）書（和美鎮公所，114年3月），表2-4 現行和美主要計畫道路編號表，頁2-13（PDF第29頁）；定位依同書「五、交通系統計畫」頁2-6～2-8（PDF第22～24頁）。https://urbangis.chcg.gov.tw/urbanfiles/Plans/Final/PF000002000619.pdf",
+      "confidence": "verified"
+     },
+     "notes": "起迄點對照：綠園道1＝道周路、彰美路。"
+    }
+   ]
+  },
+  {
+   "id": "meigang-hwy",
+   "name": "美港公路",
+   "aliases": [
+    "台61乙",
+    "台61乙線",
+    "省道台61乙",
+    "61乙",
+    "美港公路一段"
+   ],
+   "segments": [
+    {
+     "label": "一段（伸港鄉界—國道3號和美交流道，和美鎮內約1.9公里）",
+     "highway": {
+      "class": "省道",
+      "number": "台61乙",
+      "authority": "交通部公路局（中區養護工程分局彰化工務段）",
+      "source": "交通部公路局「圖說公路」平台省道SHP 20260303版（編號「台61乙線」、彰化工務段）套疊 OpenStreetMap 路名；維基百科「和美鎮」條目交通段",
+      "confidence": "verified"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    }
+   ]
+  },
+  {
+   "id": "hegang-rd",
+   "name": "和港路",
+   "aliases": [
+    "縣道134",
+    "134"
+   ],
+   "segments": [
+    {
+     "label": "全線（伸港鄉界—彰美路六段／西美路口，和美鎮內約1.9公里）",
+     "highway": {
+      "class": "縣道",
+      "number": "縣道134",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    }
+   ]
+  },
+  {
+   "id": "zhanghe-rd",
+   "name": "彰和路",
+   "aliases": [
+    "縣道138",
+    "138",
+    "彰和路二段",
+    "彰和路三段"
+   ],
+   "segments": [
+    {
+     "label": "三段全段、二段西段（道周路口—嘉鐵路口—線東路口，約2.55公里）",
+     "highway": {
+      "class": "縣道",
+      "number": "縣道138",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    },
+    {
+     "label": "二段東段（線東路口以東—彰化市界，約1.3公里）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "未列入交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名，沿線15公尺內無任何國道、省道、縣道、鄉道路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    }
+   ]
+  },
+  {
+   "id": "xiandong-rd",
+   "name": "線東路",
+   "aliases": [
+    "縣道135",
+    "135",
+    "線東路二段",
+    "線東路三段",
+    "線東路四段",
+    "線東路五段",
+    "線東路六段",
+    "線東路七段"
+   ],
+   "segments": [
+    {
+     "label": "七段北端（嘉卿路一段口以北—國道3號和美交流道，約0.5公里）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」（縣道135線「彰208以北路段解編0.534公里」）；公路局市縣道SHP尚未反映此次調整",
+      "confidence": "likely"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    },
+    {
+     "label": "七段（嘉卿路一段口以南）至二段（彰化市界），約5.8公里",
+     "highway": {
+      "class": "縣道",
+      "number": "縣道135",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    }
+   ]
+  },
+  {
+   "id": "zhangxin-rd",
+   "name": "彰新路",
+   "aliases": [
+    "彰195",
+    "彰195線",
+    "鄉道彰195",
+    "彰新路二段",
+    "彰新路三段",
+    "彰新路四段",
+    "彰新路五段",
+    "彰新路六段"
+   ],
+   "segments": [
+    {
+     "label": "二段至六段（彰化市界—伸港鄉界，和美鎮內約7.9公里）",
+     "highway": {
+      "class": "鄉道",
+      "number": "彰195",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名；交通部106年11月3日交路字第1060414172號公告附圖21（原縣道139線新港～彰化段改編為彰195線）",
+      "confidence": "verified"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    }
+   ]
+  },
+  {
+   "id": "jiaqing-rd",
+   "name": "嘉卿路",
+   "aliases": [
+    "彰208",
+    "彰208線",
+    "鄉道彰208",
+    "嘉卿路一段",
+    "嘉卿路二段",
+    "嘉卿路三段"
+   ],
+   "segments": [
+    {
+     "label": "一段至三段（和港路口—線東路七段口，約4.8公里）",
+     "highway": {
+      "class": "鄉道",
+      "number": "彰208",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    }
+   ]
+  },
+  {
+   "id": "hecuo-rd",
+   "name": "和厝路",
+   "aliases": [
+    "彰201",
+    "彰201線",
+    "鄉道彰201",
+    "和厝路一段"
+   ],
+   "segments": [
+    {
+     "label": "一段（彰新路口—彰美路六段口，約2.9公里）",
+     "highway": {
+      "class": "鄉道",
+      "number": "彰201",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    }
+   ]
+  },
+  {
+   "id": "beitang-rd",
+   "name": "北堂路",
+   "aliases": [
+    "彰9",
+    "彰9線"
+   ],
+   "segments": [
+    {
+     "label": "和頭路口—福北路口（約0.6公里）",
+     "highway": {
+      "class": "鄉道",
+      "number": "彰9",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    }
+   ]
+  },
+  {
+   "id": "fubei-rd",
+   "name": "福北路",
+   "aliases": [
+    "彰9",
+    "彰9線"
+   ],
+   "segments": [
+    {
+     "label": "北堂路口—彰新路五段口（約0.67公里）",
+     "highway": {
+      "class": "鄉道",
+      "number": "彰9",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    },
+    {
+     "label": "彰新路以北（至嘉卿路一段）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」（「彰9線於彰195線以北路段解編」）；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    }
+   ]
+  },
+  {
+   "id": "ganzhu-rd",
+   "name": "柑竹路",
+   "aliases": [
+    "彰11",
+    "彰11線"
+   ],
+   "segments": [
+    {
+     "label": "彰美路三段口—彰新路四段口（約2.1公里）",
+     "highway": {
+      "class": "鄉道",
+      "number": "彰11",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    }
+   ]
+  },
+  {
+   "id": "jiatie-rd",
+   "name": "嘉鐵路",
+   "aliases": [
+    "彰11",
+    "彰11線"
+   ],
+   "segments": [
+    {
+     "label": "彰和路二段口—彰美路三段口（約0.95公里）",
+     "highway": {
+      "class": "鄉道",
+      "number": "彰11",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    }
+   ]
+  },
+  {
+   "id": "jiadian-rd",
+   "name": "嘉佃路",
+   "aliases": [
+    "彰17",
+    "彰17線"
+   ],
+   "segments": [
+    {
+     "label": "彰和路三段口—彰草路三段口（約2.2公里）",
+     "highway": {
+      "class": "鄉道",
+      "number": "彰17",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    }
+   ]
+  },
+  {
+   "id": "weinan-rd",
+   "name": "渭南路",
+   "aliases": [
+    "彰17",
+    "彰17線"
+   ],
+   "segments": [
+    {
+     "label": "彰草路三段口—青埔橋（鎮界，約0.43公里）",
+     "highway": {
+      "class": "鄉道",
+      "number": "彰17",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "likely"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    }
+   ]
+  },
+  {
+   "id": "dadian-rd",
+   "name": "大佃路",
+   "aliases": [
+    "彰17-1",
+    "彰17-1線"
+   ],
+   "segments": [
+    {
+     "label": "全線（道周路／彰和路三段口—嘉佃路口，約2.6公里）",
+     "highway": {
+      "class": "鄉道",
+      "number": "彰17-1",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    }
+   ]
+  },
+  {
+   "id": "zhang8",
+   "name": "德南路、南安路、太平路、南軒路",
+   "aliases": [
+    "彰8",
+    "彰8線",
+    "德南路",
+    "南安路",
+    "太平路",
+    "南軒路"
+   ],
+   "segments": [
+    {
+     "label": "南軒路（鹿和路五段口—太平路口）＋太平路（南軒路口以南）＋南安路＋德南路（至彰草路二段口），合計約4.2公里",
+     "highway": {
+      "class": "鄉道",
+      "number": "彰8",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    },
+    {
+     "label": "太平路北端（南軒路口—彰和路三段口，約0.19公里）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "未列入交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名，沿線15公尺內無任何國道、省道、縣道、鄉道路線",
+      "confidence": "likely"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    }
+   ]
+  },
+  {
+   "id": "zhangcao-rd",
+   "name": "彰草路",
+   "aliases": [
+    "彰209",
+    "彰209線",
+    "彰草路二段",
+    "彰草路三段"
+   ],
+   "segments": [
+    {
+     "label": "彰草路、二段、三段（和美鎮內約3.0公里）",
+     "highway": {
+      "class": "鄉道",
+      "number": "彰209",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    }
+   ]
+  },
+  {
+   "id": "donglai-rd",
+   "name": "東萊路",
+   "aliases": [
+    "彰10",
+    "彰10線",
+    "東萊路210巷"
+   ],
+   "segments": [
+    {
+     "label": "北段（彰新路三段口—東萊路210巷口，約0.87公里）＋東萊路210巷（約0.93公里，至彰化市界）",
+     "highway": {
+      "class": "鄉道",
+      "number": "彰10",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "verified"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    },
+    {
+     "label": "南段（東萊路210巷口以南，約0.87公里）",
+     "highway": {
+      "class": "none",
+      "number": null,
+      "authority": null,
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」（彰10線改線，「原路段解編」）；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "likely"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    }
+   ]
+  },
+  {
+   "id": "beichuan-rd",
+   "name": "北川路",
+   "aliases": [
+    "彰4",
+    "彰4線"
+   ],
+   "segments": [
+    {
+     "label": "和美鎮內段（彰新路六段口—伸港鄉界，約0.44公里）",
+     "highway": {
+      "class": "鄉道",
+      "number": "彰4",
+      "authority": "彰化縣政府（縣公路主管機關，公路法第3、6條）",
+      "source": "交通部113年1月24日交路字第1135000930號公告「彰化縣縣道及鄉道公路路線調整明細表」；交通部公路局「圖說公路」平台圖資（鄉道(彰化縣)SHP 1130826版、市縣道SHP 11503版、省道SHP 20260303版，https://eroad.thb.gov.tw/DGOHDVForeground/MapDataDownload/Index）套疊 OpenStreetMap 路名",
+      "confidence": "likely"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    }
+   ]
+  },
+  {
+   "id": "nh3",
+   "name": "國道3號（福爾摩沙高速公路）",
+   "aliases": [
+    "國道3號",
+    "國3",
+    "國道三號",
+    "福爾摩沙高速公路",
+    "二高",
+    "和美交流道"
+   ],
+   "segments": [
+    {
+     "label": "和美鎮內段（約6公里，設和美交流道）",
+     "highway": {
+      "class": "國道",
+      "number": "國道3號",
+      "authority": "交通部高速公路局",
+      "source": "維基百科「和美鎮」條目（列國道三號和美交流道，里程191）；OpenStreetMap（ref=3）套疊和美鎮行政界；公路法第6條",
+      "confidence": "likely"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    }
+   ]
+  },
+  {
+   "id": "nh1",
+   "name": "國道1號（中山高速公路）",
+   "aliases": [
+    "國道1號",
+    "國1",
+    "國道一號",
+    "中山高速公路",
+    "中山高",
+    "彰化交流道"
+   ],
+   "segments": [
+    {
+     "label": "和美鎮東南緣（彰化交流道附近，約1公里）",
+     "highway": {
+      "class": "國道",
+      "number": "國道1號",
+      "authority": "交通部高速公路局",
+      "source": "OpenStreetMap（ref=1）套疊 OpenStreetMap 和美鎮行政界所得；未找到官方文件明載國道1號行經和美鎮",
+      "confidence": "unverified"
+     },
+     "urbanPlan": null,
+     "notes": "這條路不在和美主要計畫的道路編號表內：可能位於都市計畫範圍外，或屬於交流道特定區等其他計畫。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>路的身分證｜和美道路法定身分查詢</title>
+<meta name="description" content="輸入和美鎮的路名或道路編號，查它在公路法、和美都市計畫與市區道路條例下的身分與法定要求。">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div id="banner" class="banner" hidden></div>
+<header class="site-head">
+  <a class="brand" href="#">路的身分證</a>
+  <p class="tagline">這條路「本來」是設計給誰走的？先查它的法定身分。</p>
+</header>
+
+<main>
+  <section id="search-view">
+    <label class="search-label" for="q">輸入路名或道路編號</label>
+    <input id="q" class="search" type="search" autocomplete="off" inputmode="search"
+           placeholder="例如：西園路、31-8M、縣道134">
+    <p id="search-status" class="status" role="status" aria-live="polite"></p>
+    <ul id="results" class="road-list"></ul>
+  </section>
+
+  <section id="card-view" hidden>
+    <p class="back"><a href="#">← 回到搜尋</a></p>
+    <div id="card"></div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <p id="updated"></p>
+  <ul id="sources" class="sources"></ul>
+  <p>本工具為教學用途，法規以全國法規資料庫與主管機關公告為準。設計標準是道路「設計時」的要求，既有道路未必都已符合，也不代表違法。</p>
+  <p>只收錄和美主要計畫的計畫道路與境內公路；巷弄、細部計畫道路與交流道特定區的道路沒有收錄。</p>
+</footer>
+
+<noscript><p class="banner">這個工具需要開啟 JavaScript 才能使用。</p></noscript>
+<script type="module" src="assets/app.js"></script>
+</body>
+</html>

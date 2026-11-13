@@ -1,0 +1,144 @@
+:root {
+  --bg: #f6f4ee;
+  --card: #ffffff;
+  --ink: #1d2327;
+  --muted: #586169;
+  --line: #d9d5c8;
+  --accent: #0b5c8a;
+  --hw: #b4541a;
+  --plan: #2f7a4d;
+  --urban: #0b5c8a;
+  --field: #7a4a9a;
+  --warn-bg: #fff3d6;
+  --warn-ink: #6b4a00;
+  --radius: 12px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14181b;
+    --card: #1e2428;
+    --ink: #eceff1;
+    --muted: #a9b3ba;
+    --line: #36404a;
+    --accent: #7cc4ee;
+    --hw: #f0a070;
+    --plan: #7fd0a0;
+    --urban: #7cc4ee;
+    --field: #c9a3e6;
+    --warn-bg: #3d3212;
+    --warn-ink: #ffe2a0;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 18px/1.7 -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+}
+main, .site-head, .site-foot { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+a { color: var(--accent); }
+a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible {
+  outline: 3px solid var(--accent); outline-offset: 2px;
+}
+.banner { background: #a12a1c; color: #fff; text-align: center; padding: 10px 16px; font-weight: 700; }
+
+.site-head { padding-top: 28px; padding-bottom: 8px; }
+.brand { font-size: 1.9rem; font-weight: 800; color: var(--ink); text-decoration: none; letter-spacing: .04em; }
+.tagline { margin: 4px 0 0; color: var(--muted); }
+
+.search-label { display: block; font-weight: 700; margin: 20px 0 8px; }
+.search {
+  width: 100%; font: inherit; font-size: 1.3rem; padding: 14px 16px;
+  border: 2px solid var(--ink); border-radius: var(--radius);
+  background: var(--card); color: var(--ink);
+}
+.status { color: var(--muted); margin: 10px 0; font-size: .95rem; }
+.road-list {
+  list-style: none; padding: 0; margin: 0 0 40px;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 8px;
+}
+.road-list a {
+  display: flex; flex-direction: column; padding: 10px 14px; min-height: 64px; justify-content: center;
+  background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+  text-decoration: none; color: var(--ink);
+}
+.road-list a:hover { border-color: var(--accent); }
+.rname { font-weight: 700; }
+.rcode { color: var(--muted); font-size: .85rem; font-variant-numeric: tabular-nums; }
+
+.back { margin: 20px 0 8px; }
+.id-head {
+  background: var(--card); border: 2px solid var(--ink); border-radius: var(--radius);
+  padding: 18px 20px; margin-bottom: 16px;
+}
+.eyebrow { margin: 0; font-size: .85rem; letter-spacing: .3em; color: var(--muted); }
+.id-head h1 { margin: 0; font-size: 2.3rem; line-height: 1.3; }
+.seg-label { margin: 4px 0 0; color: var(--muted); }
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; }
+.tab {
+  padding: 8px 14px; border: 2px solid var(--line); border-radius: 999px;
+  text-decoration: none; color: var(--ink); background: var(--bg); font-size: .95rem;
+}
+.tab.on { border-color: var(--ink); background: var(--ink); color: var(--bg); font-weight: 700; }
+
+.block {
+  background: var(--card); border: 1px solid var(--line); border-left: 8px solid var(--line);
+  border-radius: var(--radius); padding: 16px 20px; margin-bottom: 16px;
+}
+.b-highway { border-left-color: var(--hw); }
+.b-plan { border-left-color: var(--plan); }
+.b-urban { border-left-color: var(--urban); }
+.b-field { border-left-color: var(--field); }
+.block h2 { margin: 0 0 8px; font-size: 1.2rem; }
+.block h3 { font-size: 1.05rem; margin: 18px 0 8px; }
+.verdict { font-size: 1.45rem; font-weight: 800; margin: 4px 0 10px; line-height: 1.4; }
+dl { margin: 0; }
+.row { display: grid; grid-template-columns: 6.5em 1fr; gap: 8px; padding: 6px 0; border-top: 1px dashed var(--line); }
+dt { color: var(--muted); }
+dd { margin: 0; overflow-wrap: anywhere; }
+.note { color: var(--muted); font-size: .95rem; margin: 10px 0; }
+.note.warn { background: var(--warn-bg); color: var(--warn-ink); padding: 8px 12px; border-radius: 8px; }
+.empty { color: var(--muted); }
+.badge {
+  display: inline-block; margin-left: 8px; padding: 1px 8px; font-size: .78rem; font-weight: 700;
+  background: var(--warn-bg); color: var(--warn-ink); border: 1px solid currentColor; border-radius: 999px;
+  vertical-align: middle; white-space: nowrap;
+}
+
+details.group { border-top: 1px solid var(--line); }
+details.group > summary { cursor: pointer; padding: 12px 0; font-weight: 700; font-size: 1.05rem; }
+.count { color: var(--muted); font-weight: 400; margin-left: 8px; font-size: .9rem; }
+.rule { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; margin: 0 0 12px; background: var(--bg); }
+.rule h4 { margin: 0 0 6px; font-size: .95rem; color: var(--muted); font-weight: 700; }
+.plain { margin: 0 0 8px; font-size: 1.05rem; }
+.rule details > summary { cursor: pointer; color: var(--accent); font-size: .95rem; }
+.lawtext { white-space: pre-wrap; font-size: .95rem; border-left: 3px solid var(--line); padding-left: 12px; margin: 8px 0; }
+.meta { font-size: .85rem; color: var(--muted); margin: 6px 0 0; overflow-wrap: anywhere; }
+
+.checklist { padding-left: 1.2em; margin: 8px 0; }
+.checklist li { margin-bottom: 6px; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 14px 0 0; }
+button {
+  font: inherit; font-weight: 700; padding: 10px 18px; border-radius: 10px; cursor: pointer;
+  border: 2px solid var(--ink); background: var(--ink); color: var(--bg);
+}
+button.ghost { background: transparent; color: var(--ink); }
+.copy-status { font-size: .9rem; color: var(--muted); }
+
+.site-foot { color: var(--muted); font-size: .85rem; padding-top: 24px; padding-bottom: 40px; border-top: 1px solid var(--line); margin-top: 24px; }
+.sources { padding-left: 1.2em; }
+
+@media print {
+  body { background: #fff; color: #000; font-size: 11pt; }
+  .site-head, .back, .actions, .banner, .tabs, .site-foot .sources { display: none; }
+  .block, .id-head { border-color: #000; break-inside: avoid; }
+  details.group > summary .count { display: none; }
+  .rule details { display: none; }
+  a { color: #000; text-decoration: none; }
+}
+
+.cands { padding-left: 1.2em; margin: 8px 0; }
+.cands li { margin-bottom: 8px; }
+.note { white-space: pre-line; }
